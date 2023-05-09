@@ -1,0 +1,16 @@
+POST http://localhost:3000/userCreate HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample"
+}
+
+###
+
+GET http://localhost:3000/userList HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/userById?input="2" HTTP/1.1
+content-type: application/json
